@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'mainapp/base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+        <h1>Каталог</h1>
+        <hr>
+        <div class="catalog">
+        {% for product in products %}
+          <div class="towar">
+            <a href="#">
+              <img src="/media/{{ product.image }}" alt="{{ product.short_desc }}">
+            </a>
+              <div class="text">
+                <h4>{{ product.name }}</h4>
+                <p>{{ product.description }}</p>
+              </div>
+          </div>
+        {% endfor %}
+        </div>
+{% endblock %}
