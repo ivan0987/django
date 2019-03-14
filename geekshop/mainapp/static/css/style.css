@@ -1,0 +1,180 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    background-image: url(/img/dise.jpg);
+    
+}
+
+.child {
+    height: 100px;
+    display: inline-block;
+    width: 2%;
+}
+
+.logo {
+    padding-left: 50px;
+    padding-top: 50px;
+    display: inline;
+
+}
+
+.menu ul {
+    display: inline;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: greenyellow;
+}
+
+.menu a:active {
+    color: brown;
+}
+
+.header span {
+    width: 50px;
+    height: 50px;
+    border: 5px;
+    background-color: blue;
+    color: aqua;
+}
+
+.catalog {
+    list-style-type: none;
+}
+
+.img {
+    outline: 2px solid darkblue;
+}
+
+.img:hover {
+    outline: 2px solid #f8f8f8;
+}
+
+.opis a {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.buy:active {
+    color: greenyellow;
+}
+
+.buy:hover {
+    color: brown;
+}
+.short_description:first-letter {
+    color: red;
+    font-family: "Times New Roman";
+}
+
+.long_description:first-letter {
+    color: red;
+    font: "Arial Black";
+}
+
+.towar {
+    display: inline;
+}
+
+.tovar-zag {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    overflow: hidden;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.char {
+    color: chocolate;
+    font-size: 20px;
+    font-style: oblique;
+    list-style-type: none;
+    list-style-image: url(img/4.gif);
+}
+
+table {
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+}
+
+td {
+    border: 1px solid black;
+    height: 10%;
+    text-align: center;
+}
+
+.td {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.pole {
+    color: darkkhaki;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.pole:focus {
+    color: darkblue;
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+.karta {
+    height: 374px;
+    width: 100%;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+}
+
+.footer h4 {
+    float: right;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.category_record.not_active {
+    opacity: 0.5;
+}
