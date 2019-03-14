@@ -174,3 +174,7 @@ td {
     padding-right: 50px;
     padding-bottom: 50px;
 }
+
+.category_record.not_active {
+    opacity: 0.5;
+}
